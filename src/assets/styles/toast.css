@@ -1,0 +1,83 @@
+.Vue-Toastification__container {
+  bottom: 0 !important;
+  left: 0 !important;
+  padding: 0 2rem 2rem 2rem;
+  width: 100%;
+  max-width: 28rem;
+  row-gap: 1rem;
+}
+
+.Vue-Toastification__toast {
+  margin: 0 !important;
+  min-width: 100%;
+  max-width: 100%;
+  min-height: unset;
+  max-height: 250px;
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  column-gap: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  color: #18181b; /* zinc-900 */
+  background-color: #fafafa; /* zinc-50 */
+}
+
+.Vue-Toastification__icon {
+  margin: 0 !important;
+}
+
+.Vue-Toastification__toast-body {
+  max-height: 202px; /* 250 - 24 - 24 */
+  overflow: hidden;
+}
+
+.Vue-Toastification__close-button {
+  color: #18181b; /* zinc-900 */
+  padding: 0 !important;
+}
+
+/* Default */
+.Vue-Toastification__toast--default .Vue-Toastification__icon {
+  color: #71717a; /* zinc-500 */
+}
+
+.Vue-Toastification__toast--default .Vue-Toastification__progress-bar {
+  background-color: #71717a; /* zinc-500 */
+}
+
+/* Success */
+.Vue-Toastification__toast--success .Vue-Toastification__icon {
+  color: #10b981; /* emerald-500 */
+}
+
+.Vue-Toastification__toast--success .Vue-Toastification__progress-bar {
+  background-color: #10b981; /* emerald-500 */
+}
+
+/* Info */
+.Vue-Toastification__toast--info .Vue-Toastification__icon {
+  color: #3b82f6; /* blue-500 */
+}
+
+.Vue-Toastification__toast--info .Vue-Toastification__progress-bar {
+  background-color: #3b82f6; /* blue-500 */
+}
+
+/* Warning */
+.Vue-Toastification__toast--warning .Vue-Toastification__icon {
+  color: #f59e0b; /* amber-500 */
+}
+
+.Vue-Toastification__toast--warning .Vue-Toastification__progress-bar {
+  background-color: #f59e0b; /* amber-500 */
+}
+
+/* Error */
+.Vue-Toastification__toast--error .Vue-Toastification__icon {
+  color: #ef4444; /* red-500 */
+}
+
+.Vue-Toastification__toast--error .Vue-Toastification__progress-bar {
+  background-color: #ef4444; /* red-500 */
+}

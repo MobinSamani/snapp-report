@@ -1,0 +1,37 @@
+@import "./tailwind.css";
+@import "./transitions.css";
+@import "./toast.css";
+
+@font-face {
+  font-family: "roboto";
+  font-style: normal;
+  font-weight: 300;
+  src:
+    local("roboto"),
+    url("../fonts/roboto/light.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "roboto";
+  font-style: normal;
+  font-weight: 400;
+  src:
+    local("roboto"),
+    url("../fonts/roboto/regular.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "roboto";
+  font-style: normal;
+  font-weight: 600;
+  src:
+    local("roboto"),
+    url("../fonts/roboto/bold.ttf") format("truetype");
+  font-display: swap;
+}
+
+html {
+  font-family: "roboto" !important;
+}
